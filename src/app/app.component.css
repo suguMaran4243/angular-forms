@@ -1,0 +1,56 @@
+.registerForm
+{
+    margin:140px auto;
+    width: 600px;
+    height: 800px;
+    font-size: 20px;
+    text-align: left;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+.registerForm input,select
+{
+    padding: 10px;
+    font-size: 20px;
+    /* margin: 10px; */
+    /* border: 2px solid; */
+    
+}
+
+.registerForm #button
+{
+    padding: 10px;
+    
+     margin-left:  40px;
+    font-size: 20px;
+    background-color: rgb(126, 206, 126);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80%;
+}
+textarea
+{
+    margin-left: 150px;
+}
+input.ng-invalid.ng-touched
+{
+    border: 2px solid red;
+}
+input.ng-valid
+{
+    border: 2px solid green;
+}
+input.ng-untouched
+{
+    border: 2px solid yellow
+}
+.fromForm
+{
+    margin:0 auto;
+    width: 400px;
+    font-size: 20px;
+    background-color: pink;
+    padding: 10px;
+}
+
